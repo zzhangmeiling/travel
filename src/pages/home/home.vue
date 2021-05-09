@@ -5,6 +5,9 @@
         <icons-home/>
         <recommend-home/>
         <weekend-home/>
+        <router-link to='/city'>
+        <div>跳转到城市页面</div>
+        </router-link>
     </div>
 </template>
 <script>
@@ -26,6 +29,6 @@ export default{
         return{
             
         }
-    }
+    } 
 }
 </script>

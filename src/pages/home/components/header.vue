@@ -3,7 +3,9 @@
         <div class="left iconfont icon-zuo"></div>
         <div class="content"><span class='iconfont icon-chazhao'></span>
         请输入城市|景点</div>
+        <router-link to='/city'>
         <div class="right">城市<span class='iconfont icon-xiangxia'></span></div>
+        </router-link>
     </div>
 </template>
 <script>
@@ -45,5 +47,8 @@ export default {
     }
     .icon-xiangxia{
         margin-left:.1rem;
+    }
+    .ovf{
+        float:none;
     }
 </style>

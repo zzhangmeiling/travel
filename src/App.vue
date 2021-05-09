@@ -1,16 +1,15 @@
 <template>
   <div id="app">
-    <home/>
+    <!--vue-router 渲染的部分-->
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import Home from '@/pages/home/home.vue'
+
 export default {
   name: 'App',
-  components:{
-    'home':Home
-  }
+  
 }
 </script>
 
